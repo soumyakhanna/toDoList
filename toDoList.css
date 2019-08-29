@@ -1,0 +1,103 @@
+h1{
+    background: lightcoral;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal;
+}
+.fa-plus{
+    float: right;
+}
+span{
+    background: #e74c3c;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0px;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+li:hover span{
+    width: 40px;
+    opacity: 1.0;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+
+}
+input{
+    font-size: 18px;
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+input:focus{
+    background: #fff;
+    border: 3px solid lightcoral;
+    outline: none;
+}
+li:nth-child(2n){
+    background: #f7f7f7;
+}
+body{
+    background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: Roboto;
+}
+#container{
+    width: 360px;
+    margin: 100px 10px auto;
+    background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    float: left;
+}
+
+.completed{
+    color: gray;
+    text-decoration: line-through;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100;
+    font-weight: 700;
+    color: rebeccapurple;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    outline: none;
+}
+
+button:hover{
+    color: white;
+    background-color: rebeccapurple;
+}
+
+#button{
+    display: inline-block;
+    width: 20%;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Lacquer', sans-serif;
+}
